@@ -1,0 +1,20 @@
+.collumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.collumn h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: #9fa0a3;
+}
+
+.collumn h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #143c8d;
+}

@@ -1,0 +1,32 @@
+.navBox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 0 5%;
+}
+
+.navBox div {
+    width: fit-content;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.navBox p {
+    color: #4ebfdf;
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.activeLink {
+    border-bottom: 4px solid #4ebfdf;
+}
+
+.activeLink p {
+    opacity: 1 !important;
+}

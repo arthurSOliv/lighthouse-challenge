@@ -1,0 +1,43 @@
+.servicesBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 10px 30px 10px;
+    color: #243f8c;
+}
+
+.servicesBox h2 {
+    font-style: italic;
+}
+
+.servicesBox p {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.columns {
+    width: 66%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.itemBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemBox img {
+    width: 45px !important;
+}
+
+.my-5 {
+    margin-bottom: 30px;
+}
