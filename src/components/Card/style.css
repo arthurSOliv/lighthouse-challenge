@@ -27,8 +27,8 @@
     margin-bottom: 15px;
 }
 
-.card span:first-child {
-    color: #f66715;
+.card .orange {
+    color: #f66715 !important;
     font-size: 10px;
 }
 

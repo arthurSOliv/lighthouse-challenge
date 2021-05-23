@@ -11,7 +11,7 @@ function Card() {
 
         <img className="icon" src={truck} alt="Entrega" />
 
-        <span>Aplicação Domiciliar <b>Gratuíta</b></span>
+        <span className="orange">Aplicação Domiciliar <b>Gratuíta</b></span>
 
         <div className="oldPrice">
             <p>R$</p>
